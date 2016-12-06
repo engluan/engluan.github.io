@@ -1,23 +1,31 @@
-// var dataSkills = [
-// 	{idBar:"myBar1", value:"30", skillName:"C++"}, 
-// 	{idBar:"myBar2", value:"30", skillName:"Agile Scrum"},
-// 	{idBar:"myBar3", value:"30", skillName:"C#"}, 
-// 	{idBar:"myBar4", value:"30", skillName:"ASP.NET"}, 
-// 	{idBar:"myBar5", value:"30", skillName:"HTML"}, 
-// 	{idBar:"myBar6", value:"20", skillName:"CSS"},
-// 	{idBar:"myBar7", value:"20", skillName:"JavaScript"}, 
-// ];
+// Language template
+ var dataLanguage = [
+	{idBar:"myBar1", value:"70", languageName:"English"}, 
+ 	{idBar:"myBar2", value:"100", languageName:"Portuguese"},
+];
+
+var lang = $("#template-language").html();
+var language = Handlebars.compile(lang);
+$("#language-replace").html(language(dataLanguage));
+
+// Skill template 
+var dataSkills = [
+	{idBar:"myBar1", value:"50", skillName:"Agile Scrum"}, 
+ 	{idBar:"myBar2", value:"40", skillName:"C++"},
+ 	{idBar:"myBar3", value:"30", skillName:"C#"}, 
+ 	{idBar:"myBar4", value:"30", skillName:"ASP.NET"}, 
+ 	{idBar:"myBar5", value:"30", skillName:"HTML"}, 
+ 	{idBar:"myBar6", value:"30", skillName:"CSS"},
+ 	{idBar:"myBar7", value:"30", skillName:"JavaScript"}, 
+];
+
+var ski = $("#template-skill").html();
+var skill = Handlebars.compile(ski);
+$("#skill-replace").html(skill(dataSkills));
 
 
 
-// /*template skills*/
-// var temp3 = $("#template-3").html();
-// var template3 = Handlebars.compile(temp3);
-// $("#skills-replace").html(template3(dataSkills));
-
-
-
-
+// Portifolio template 
 var dataPortfolioModal = [
 		{	
 			idModal:"portfolioModal1",
