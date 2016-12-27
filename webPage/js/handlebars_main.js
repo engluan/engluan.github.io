@@ -50,19 +50,19 @@ var dataPortfolioModal = [
 		{
 			idModal:"portfolioModal2",
 			title: "Workshop UI", 
-			legend:"", 
-			picture:"img/portfolio/working.gif", 
-			description:"You can´t see yet, i´m working on it.", 
-			strongPhrase:"", 
-			textLink1:"", 
-			link1:"", 
-			titleLink1:"", 
+			legend:"Slides explain some caracteristics of UI", 
+			picture:"img/portfolio/ui.jpg", 
+			description:"Three months working with these beautiful technologies (HTML, CSS and JavaScript) passed quickly, so i separated some points that i learned and make some slides with them.", 
+			strongPhrase:"Here it's a apresentation about some concepts of UI", 
+			textLink1:"You can see all the apresentation here", 
+			link1:"https://docs.google.com/presentation/d/1dcCHxySh5LSe7DLIowxD9ZOVxfzV7eN-xBHQKYwKEk8/edit?usp=sharing", 
+			titleLink1:"Workshop UI", 
 			textLink2:"",
 			link2:"", 
 			titleLink2:"", 
-			date:"", 
-			enterprise:"", 
-			category:""
+			date:"Date: December 2016", 
+			enterprise:"Enterprise: Avenue Code", 
+			category:"Category: UI tecnologies"
 	},
 
 		{
