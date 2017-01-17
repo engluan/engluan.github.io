@@ -245,23 +245,25 @@
             </div>
         </div>
     </section>
-
+    <!--Skill and Language Handlebars Templates -->
     <script id="template-language" type="text/x-handlebars-template"> 
 
 		{{#each this}}
-           <div class="progress holderProgess myProgress">
+		    <p class="section-subheading text-muted">{{this.languageName}}</p>
+            <div class="progress holderProgess myProgress">
 			    <div class="progress-bar progress-bar-danger myBar" data-values="{{this.value}}">0%</div>
 			</div>                      
-            <p class="section-subheading text-muted">{{this.languageName}}</p>
+            
         {{/each}}
     </script>
 
     <script id="template-skill" type="text/x-handlebars-template"> 
     	{{#each this}}
-           <div class="progress holderProgess myProgress">
+    		<p class="section-subheading text-muted">{{this.skillName}}</p>
+            <div class="progress holderProgess myProgress">
 			    <div class="progress-bar progress-bar-danger myBar" data-values="{{this.value}}">0%</div>
 			</div>                      
-            <p class="section-subheading text-muted">{{this.skillName}}</p>
+            
         {{/each}}
     </script>
 
@@ -279,12 +281,12 @@
 
             <div class="row">
                 <div class="col-sm-6">
-                    <h4><span class="glyphicon glyphicon-bullhorn" style="color:#41c99e"></span> Languages</h4> 
+                    <h4><span class="glyphicon glyphicon-bullhorn"></span> Languages</h4> 
                     <div id="language-replace"></div>
                 </div>
 
                 <div class="col-sm-6">
-                	<h4><span class="glyphicon glyphicon-wrench" style="color:#41c99e"></span> Skills</h4>
+                	<h4><span class="glyphicon glyphicon-wrench"></span> Skills</h4>
                     <div id="skill-replace"></div>
                 </div>
             </div>
@@ -391,7 +393,7 @@
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-    <!-- Portfolio Modal -->
+    <!-- Portfolio Modal Handlebars Template -->
     <div id="portfolio-replace"></div>
     <script id="template-portfolio" type="text/x-handlebars-template">
 	    {{#each this}}

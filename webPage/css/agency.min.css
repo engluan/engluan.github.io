@@ -26,4 +26,6 @@
   line-height: 30px;
   color: white;
 }
-
+.glyphicon-bullhorn, .glyphicon-wrench{
+  color:#41c99e;
+}
