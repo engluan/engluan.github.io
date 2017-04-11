@@ -81,6 +81,24 @@ var dataPortfolioModal = [
 			date:"November 2016", 
 			enterprise:"", 
 			category:""
+	},
+
+		{
+			idModal:"portfolioModal4",
+			title: "Workshop QA", 
+			legend:"Slides explain some caracteristics of QA", 
+			picture:"img/portfolio/quality.png", 
+			description:"Three months working with these beautiful Behavior-driven development (BDD) passed quickly, so i separated some points that i learned and make some slides with them.", 
+			strongPhrase:"Here it's a apresentation about some concepts of Quality Assurance", 
+			textLink1:"You can see all the apresentation here", 
+			link1:"https://docs.google.com/a/avenuecode.com/presentation/d/1SvEm9UyZlhXa9boE7ByPWkckzpBXbSLImuA8POV0aBk/edit?usp=sharing", 
+			titleLink1:"Workshop QA", 
+			textLink2:"",
+			link2:"", 
+			titleLink2:"", 
+			date:"Date: April 2017", 
+			enterprise:"Enterprise: Avenue Code", 
+			category:"Category: QA tecnologies"
 	}
 ]
 
