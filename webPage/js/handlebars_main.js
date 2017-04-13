@@ -17,6 +17,12 @@ var dataSkills = [
  	{idBar:"myBar5", value:"30", skillName:"HTML"}, 
  	{idBar:"myBar6", value:"30", skillName:"CSS"},
  	{idBar:"myBar7", value:"30", skillName:"JavaScript"}, 
+ 	{idBar:"myBar8", value:"30", skillName:"BDD"},
+ 	{idBar:"myBar9", value:"30", skillName:"Cucumber"},
+ 	{idBar:"myBar10", value:"30", skillName:"Page Object Model"},
+ 	{idBar:"myBar11", value:"30", skillName:"Webdriver"},
+ 	{idBar:"myBar12", value:"20", skillName:"Java"},
+ 	{idBar:"myBar13", value:"10", skillName:"Ruby"}
 ];
 
 var ski = $("#template-skill").html();
