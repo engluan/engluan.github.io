@@ -10,10 +10,10 @@ $("#language-replace").html(language(dataLanguage));
 
 // Skill template 
 var dataSkills = [
-	{idBar:"myBar1", value:"50", skillName:"Agile Scrum"}, 
- 	{idBar:"myBar2", value:"40", skillName:"C++"},
- 	{idBar:"myBar3", value:"30", skillName:"C#"}, 
- 	{idBar:"myBar4", value:"30", skillName:"ASP.NET"}, 
+	{idBar:"myBar1", value:"70", skillName:"Agile Scrum"}, 
+ 	{idBar:"myBar2", value:"30", skillName:"C++"},
+ 	{idBar:"myBar3", value:"20", skillName:"C#"}, 
+ 	{idBar:"myBar4", value:"20", skillName:"ASP.NET"}, 
  	{idBar:"myBar5", value:"30", skillName:"HTML"}, 
  	{idBar:"myBar6", value:"30", skillName:"CSS"},
  	{idBar:"myBar7", value:"30", skillName:"JavaScript"}, 
@@ -21,8 +21,9 @@ var dataSkills = [
  	{idBar:"myBar9", value:"30", skillName:"Cucumber"},
  	{idBar:"myBar10", value:"30", skillName:"Page Object Model"},
  	{idBar:"myBar11", value:"30", skillName:"Webdriver"},
- 	{idBar:"myBar12", value:"20", skillName:"Java"},
- 	{idBar:"myBar13", value:"10", skillName:"Ruby"}
+ 	{idBar:"myBar12", value:"10", skillName:"Ruby"},
+ 	{idBar:"myBar13", value:"60", skillName:"Java"},
+ 	{idBar:"myBar14", value:"60", skillName:"Android"}
 ];
 
 var ski = $("#template-skill").html();
@@ -105,9 +106,60 @@ var dataPortfolioModal = [
 			date:"Date: April 2017", 
 			enterprise:"Enterprise: Avenue Code", 
 			category:"Category: QA tecnologies"
+	},
+
+	{
+			idModal:"portfolioModal5",
+			title: "Workshop Ruby", 
+			legend:"Slides explain some caracteristics of Ruby and the framework Ruby on Rails", 
+			picture:"img/portfolio/ruby.png", 
+			description:"Ruby is simple in appearance, but is very complex inside, just like our human body — Matz.", 
+			strongPhrase:"Here it's a apresentation about some concepts of Ruby and the most famous framework Ruby on Rails", 
+			textLink1:"You can see all the apresentation here", 
+			link1:"https://docs.google.com/presentation/d/1Eblbcsvop3rsSR-KJbunLh7gVf7nQo-nm2Hxedo-e5g/edit?usp=sharing", 
+			titleLink1:"Workshop Ruby", 
+			textLink2:"",
+			link2:"", 
+			titleLink2:"", 
+			date:"Date: August 2017", 
+			enterprise:"Enterprise: Avenue Code", 
+			category:"Category: Ruby"
+	},
+	{
+			idModal:"portfolioModal6",
+			title: "Workshop Java", 
+			legend:"Slides explain some caracteristics of Java", 
+			picture:"img/portfolio/java.jpg", 
+			description:"Love or hate, in my case I loved working with Java. After three months here are some slides on the language", 
+			strongPhrase:"Here it's a apresentation about some concepts of Java", 
+			textLink1:"You can see all the apresentation here", 
+			link1:"https://docs.google.com/presentation/d/1qNcwwAsSHdZREfCNaY1AulSCxNiXH99cxDh7AQicgW0/edit?usp=sharing", 
+			titleLink1:"Workshop Ruby", 
+			textLink2:"",
+			link2:"", 
+			titleLink2:"", 
+			date:"Date: December 2017", 
+			enterprise:"Enterprise: Avenue Code", 
+			category:"Category: Java"
+	},
+	{
+			idModal:"portfolioModal7",
+			title: "Workshop Android", 
+			legend:"Slides explain some challenges about create an app.", 
+			picture:"img/portfolio/android.jpg", 
+			description:"Continue to use Java to develop and learn more from the mobile world, it was sensational.", 
+			strongPhrase:"Here it's a apresentation about some concepts of Android", 
+			textLink1:"You can see all the apresentation here", 
+			link1:"https://docs.google.com/presentation/d/1tIHJ7R-ZBhE2JlxyFdHWOlOKvCClX1LnuFFZ5yrcvtU/edit?usp=sharing", 
+			titleLink1:"Workshop Android", 
+			textLink2:"",
+			link2:"", 
+			titleLink2:"", 
+			date:"Date: May 2018", 
+			enterprise:"Enterprise: Avenue Code", 
+			category:"Category: Android and Java"
 	}
 ]
-
 
 var port = $("#template-portfolio").html();
 var portfolioModal = Handlebars.compile(port);
