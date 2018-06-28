@@ -134,7 +134,7 @@ var dataPortfolioModal = [
 			strongPhrase:"Here it's a apresentation about some concepts of Java", 
 			textLink1:"You can see all the apresentation here", 
 			link1:"https://docs.google.com/presentation/d/1qNcwwAsSHdZREfCNaY1AulSCxNiXH99cxDh7AQicgW0/edit?usp=sharing", 
-			titleLink1:"Workshop Ruby", 
+			titleLink1:"Workshop Java", 
 			textLink2:"",
 			link2:"", 
 			titleLink2:"", 
